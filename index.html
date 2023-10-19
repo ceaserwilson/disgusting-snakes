@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Disgusting Snake game</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1 class="title">Kill the Snake</h1>
+      <button class="btn" id="start-btn">Play</button>
+    </div>
+
+    <div class="screen">
+      <h1>what snake do you dread the most?</h1>
+      <ul class="snakes-list">
+        <li>
+          <button class="select-snake">
+            <img src="./snake 1.png" alt="snake-1" />
+          </button>
+        </li>
+        <li>
+          <button class="select-snake">
+            <img src="./snake 2.png" alt="snake-2" />
+          </button>
+        </li>
+        <li>
+          <button class="select-snake">
+            <img src="./snake 3.png" alt="snake-3" />
+          </button>
+        </li>
+        <li>
+          <button class="select-snake">
+            <img src="./snake 4.png" alt="snake-4" />
+          </button>
+        </li>
+        <li>
+          <button class="select-snake">
+            <img src="./snake 5.png" alt="snake-5" />
+          </button>
+        </li>
+        <li>
+          <button class="select-snake">
+            <img src="./snake 6.png" alt="snake-6" />
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <h3 id="time" class="time">Time: 00:00</h3>
+      <h3 id="score" class="score">Score: 0</h3>
+      <h5 class="message" id="message">Don't you ever get disgusted</h5>
+
+
+    <script src="app.js"></script>
+  </body>
+</html>
